@@ -1,0 +1,16 @@
+# Project instructions
+
+- Preserve explicit demo/simulated labels; never imply live weather or deployed Python.
+- Keep scoring deterministic, testable, and auditable. An LLM may phrase results but must not create numeric recommendations.
+- Keep Node, Next.js, source-map-js, PostCSS, certifi, CI, and Docker pins at or above the repository security floors.
+- Add a regression test for every scoring or validation change.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+## This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

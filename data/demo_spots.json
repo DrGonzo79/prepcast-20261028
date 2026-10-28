@@ -1,0 +1,5 @@
+[
+  {"id":"river-brew","name":"River Bend Brewery","day":"Thursday","priorSales":[1180,1320,1240],"feeType":"percent","feeValue":10,"baselineUnits":115,"foodCostPerUnit":3.2,"pricePerUnit":12},
+  {"id":"market-square","name":"Market Square Lunch","day":"Wednesday","priorSales":[860,940,790],"feeType":"flat","feeValue":125,"baselineUnits":82,"foodCostPerUnit":3.2,"pricePerUnit":12},
+  {"id":"stadium-lot","name":"Stadium South Lot","day":"Saturday","priorSales":[1720,2100,1880],"feeType":"flat","feeValue":275,"baselineUnits":165,"foodCostPerUnit":3.2,"pricePerUnit":12}
+]
